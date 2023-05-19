@@ -238,6 +238,7 @@ PRODUCT_PACKAGES += \
     init.qti.kernel.sh \
     init.recovery.qcom.rc \
     init.target.rc \
+    init.Spacewar.rc \
     ueventd.qcom.rc
 
 # ION
