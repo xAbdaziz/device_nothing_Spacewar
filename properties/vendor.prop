@@ -97,6 +97,9 @@ dalvik.vm.dex2oat64.enabled=true
 persist.vendor.dpm.idletimer.mode=default
 persist.vendor.dpmhalservice.enable=1
 
+# Fingerprint
+persist.vendor.fingerprint.sensor_location=540|2170|94
+
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
