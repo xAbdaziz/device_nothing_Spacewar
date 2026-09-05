@@ -1,0 +1,9 @@
+type glyph_device_color, domain;
+type glyph_device_color_exec, exec_type, vendor_file_type, file_type;
+
+init_daemon_domain(glyph_device_color)
+
+allow glyph_device_color mnt_vendor_file:dir search;
+allow glyph_device_color mnt_vendor_file:file r_file_perms;
+
+set_prop(glyph_device_color, vendor_device_color_prop)
