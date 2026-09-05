@@ -4,5 +4,8 @@ vendor_internal_prop(system_fingerprint_prop)
 # PowerShare
 type sysfs_powershare, sysfs_type, fs_type;
 
+# Glyph Color
+vendor_public_prop(vendor_device_color_prop)
+
 # Glyph LEDs
 type vendor_sysfs_glyph, sysfs_type, fs_type;

@@ -32,3 +32,5 @@ allow glyph_app system_app_data_file:{
 allow glyph_app sysfs_leds:dir search;
 
 allow glyph_app thermal_service:service_manager find;
+
+get_prop(glyph_app, vendor_device_color_prop)
